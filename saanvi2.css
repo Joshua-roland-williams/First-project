@@ -1,0 +1,82 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.grid-top
+{
+    display: grid;
+    background-color: violet;
+    grid-template-columns: 3fr 3fr 3fr 3fr 1fr 1fr 1fr ;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-bottom: 0.2cm;
+}
+.grid-container
+{
+   display: grid;
+   color: black;
+   margin-left: 5cm;
+   margin-right: 5cm;
+   grid-template-columns: 4fr 1fr;
+   grid-gap: 0.2cm;
+}
+
+.grid-item-1
+{
+   background-color: white;
+   padding: 5px;
+
+}
+.grid-item-2
+{
+   background-color: violet;
+   padding: 5px;
+
+}
+
+h1{
+    text-align: center;  
+    font-weight: 800;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+body
+{
+    background-color: grey;
+}
+.ok
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.item
+{
+    text-align: center;
+}
+.item1
+{
+    margin-left:10px;
+
+}
+.item2
+{
+    margin-right: 6cm;
+    /* color: white;
+    background-color: black; */
+}
+
+.fotter
+{
+    background-color: white;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 0.2cm;
+    padding-left: 20px;
+}
+button
+{
+    color: white;
+    background-color: black;
+}
